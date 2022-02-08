@@ -1,14 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import List from "./List";
+import Heading from "./Heading";
 
 ReactDOM.render(
   <div>
-    <h1>My Favourite Foods</h1>
-    <ul>
-      <li>Bacon</li>
-      <li>Jamon</li>
-      <li>Noodles</li>
-    </ul>
+    <Heading />
+    <List />
   </div>,
   document.getElementById("root")
 );
